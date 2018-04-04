@@ -1,12 +1,56 @@
-html, body {
-   margin: 0;
-   padding: 0;
+
+ .mainsec
+ {
+   background-image: url("../images/homeimg.jpg") !important;
+    background-repeat: no-repeat, repeat;
+    height: 100vh;
+    position: relative;
+    background-size: 100% 100%;
  }
- .background {
-   position: absolute;
-   background-color: #000;
-   display: block;
-   top: 0;
-   left: 0;
-   z-index: 0;
+ .navbar,.navbar-brand
+ {
+   background: transparent !important;
+   color:white !important;
  }
+ .collapse > ul> li>a{
+color:white !important;
+ }
+ .navbar-toggler
+ {
+   background: white;
+ }
+ .navbar-toggler-icon
+ {
+   color: black !important;
+ }
+ .navref:hover
+ {
+  border-bottom:solid red;
+  border-width:thick;
+ }
+ .artist_sec
+ {
+   height: 100vh;
+ }
+#art_head
+{
+  float:right;
+  border-bottom :solid red;
+  border-width:thick;
+  margin-right: 1%;
+}
+#full_sch
+{
+  text-align: center;
+  margin-top:5%;
+  color: red;
+}
+.card_spacing
+{
+  margin-top: 5%;
+  padding-left:3%;
+}
+.sfs
+{
+  text-decoration: none !important;
+}
